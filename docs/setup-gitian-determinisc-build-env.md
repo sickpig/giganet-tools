@@ -41,6 +41,6 @@ Second you need to customize `--url bitcoin=` and `--commit bitcoin=` command li
 
 Lastly the last parameter of the above command line `gitian-descriptor.yml` is the recipe that the process use to build the binaries. It determines the target architecture (arm, amd64 etc etc), if you build also QT etc etc. The default gitian descriptors could be found in the BU repo under `contrib/gitian-descriptors`.
 
-To make the build process I modified the default linux descriptor so that it won't build QT, all binaries needed for unit testing and it will build just for x86_84 and not for i386. Yo u would find this in this repo under [scripts/gitian-linux-slim-bucash.yml] folder.
+To make the build process I modified the default linux descriptor so that it won't build QT, all binaries needed for unit testing and it will build just for x86_84 and not for i386. You would find this [file](../scripts/gitian-linux-slim-bucash.yml) in this repo under.
 
 
